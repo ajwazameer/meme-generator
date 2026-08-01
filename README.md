@@ -1,16 +1,76 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that generates memes using images fetched from an external API. Users can add custom top and bottom text to create their own memes instantly.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetches random meme templates from an API
+- Generate a new random meme
+- Add custom top and bottom text
+- Instant live preview
+- Responsive layout
+- Clean and intuitive user interface
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Fetch API
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![UI-Image](image.png)![Ui-IMAGE](image-1.png)
+
+## 🧠 What I Learned
+
+This project helped me strengthen my understanding of:
+
+- React components
+- State management with `useState`
+- Side effects using `useEffect`
+- Fetching data from APIs
+- Handling asynchronous JavaScript
+- Forms and controlled inputs
+- Conditional rendering
+- Working with external data
+
+## ▶️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/meme-generator.git
+```
+
+Navigate into the project:
+
+```bash
+cd meme-generator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 Future Improvements
+
+- Download memes as images
+- Add text customization (font, color, size)
+- Drag and position text anywhere
+- Favorite memes
+- Search meme templates
+
+## 📄 License
+
+This project is open source and available under the MIT License.
